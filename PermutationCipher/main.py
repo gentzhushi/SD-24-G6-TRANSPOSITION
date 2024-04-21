@@ -1,6 +1,7 @@
 from temp import permutation_cipher
 
 # inputi
+
 key = input("Sheno celesin [Numra]: ")
 message = input("Sheno plain text: ")
 print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
