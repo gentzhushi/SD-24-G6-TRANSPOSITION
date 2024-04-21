@@ -1,5 +1,18 @@
 # Permutation Cipher
 
+Ky është një shembull i një programi Python që implementon algoritmin "Permutation Cipher" për enkriptim dhe dekriptim të tekstit. Për të ekzekutuar programin, ndiqni udhëzimet më poshtë.
+
+## Udhëzimet për Ekzekutim
+
+1. **Kërkesat**: Sigurohuni që të keni Python të instaluar. Ju mund ta kontrolloni versionin e Python me komandën `python --version` ose `python3 --version`.
+
+2. **Shkarkimi i Kodit**: Klononi repositorin ose shkarkoni skedarin që përmban kodin Python:
+
+   ```bash
+   git clone <URL>
+
+# Permutation Cipher
+
 Permutation Cipher është një lloj i algoritmit të enkriptimit që përdor një permutacion të shkronjave ose simboleve për të transformuar tekstin e shkrimit të thjeshtë në tekst të koduar. Ky lloj i enkriptimit bazohet në përzierjen ose riorganizimin e karaktereve në një mënyrë të caktuar.
 
 ## Si funksionon
