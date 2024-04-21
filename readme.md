@@ -1,15 +1,44 @@
-# Permutation Cipher
+## Hapat për Ekzekutim
 
-Ky është një shembull i një programi Python që implementon algoritmin "Permutation Cipher" për enkriptim dhe dekriptim të tekstit. Për të ekzekutuar programin, ndiqni udhëzimet më poshtë.
+1. **Siguroni Python**:
+   - Sigurohuni që keni të instaluar Python në kompjuterin tuaj.
+   - Për të kontrolluar nëse Python është instaluar, përdorni komandën `python --version` ose `python3 --version` në terminal ose konsolë.
 
-## Udhëzimet për Ekzekutim
+2. **Shkarkoni Projektin**:
+   - Klononi repositorin ose shkarkoni dosjen që përmban kodin Python.
+   - Përdorni komandën e mëposhtme për të klonuar repositorin:
 
-1. **Kërkesat**: Sigurohuni që të keni Python të instaluar. Ju mund ta kontrolloni versionin e Python me komandën `python --version` ose `python3 --version`.
+     ```bash
+     git clone <URL>
+     ```
 
-2. **Shkarkimi i Kodit**: Klononi repositorin ose shkarkoni skedarin që përmban kodin Python:
+     Zëvendësoni `<URL>` me adresën e saktë të repositorit GitHub.
 
-   ```bash
-   git clone <URL>
+3. **Hapni Terminalin dhe Navigoni në Dosje**:
+   - Hapni një terminal ose konsolë.
+   - Navigoni në dosjen ku është klonuar ose shkarkuar projekti, duke përdorur komandat si `cd <emri_i_dosjes>`.
+
+4. **Ekzekutoni Programin**:
+   - Ekzekutoni skedarin Python që përmban kodin e algoritmit me komandën e mëposhtme:
+
+     ```bash
+     python <emri_i_skedarit>.py
+     ```
+
+     Zëvendësoni `<emri_i_skedarit>` me emrin e saktë të skedarit Python që përmban kodin tuaj.
+
+5. **Futni Çelësin dhe Mesazhin**:
+   - Pasi të ekzekutohet programi, ju do të kërkohet të futni çelësin e permutacionit (një sekuencë numrash) dhe tekstin e thjeshtë që dëshironi të enkriptoni.
+   - Shtypni çelësin dhe mesazhin në terminal kur të kërkohet.
+
+6. **Shikoni Rezultatet**:
+   - Programi do të shfaqë tekstin e enkriptuar në terminal.
+   - Për të dekriptuar tekstin e enkriptuar, përdorni të njëjtin çelës dhe programi do të kthejë tekstin e dekriptuar.
+
+## Problemet dhe Përmirësimet
+
+Nëse hasni probleme gjatë ekzekutimit, kontrolloni nëse Python është instaluar saktë dhe nëse komandat janë të shkruara siç duhet. Për sugjerime dhe përmirësime, ju lutemi kontaktoni në [email ose kanal tjetër kontakti].
+
 
 # Permutation Cipher
 
