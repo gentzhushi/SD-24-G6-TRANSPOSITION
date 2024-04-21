@@ -1,29 +1,16 @@
-PERMUTATION CIPHER NE PYTHON
+# Permutation Cipher
 
-KREJT SE QKA DUHET ME BO ESHTE ME RUN FAJLLIN "main.py" QE GJINDET NE FOLDERIN "PermutationCipher"
+Permutation Cipher është një lloj i algoritmit të enkriptimit që përdor një permutacion të shkronjave ose simboleve për të transformuar tekstin e shkrimit të thjeshtë në tekst të koduar. Ky lloj i enkriptimit bazohet në përzierjen ose riorganizimin e karaktereve në një mënyrë të caktuar.
 
-# Pseudo-Kodi per Enkriptim:
-# - Kena me nda mesazhin n blloqe t gjata se celesi, celesi duhet me kan string,
-#   sipas renditjes t alfabetit t karaktereve t celesit, kena me ja u ndrru vendet
-#   karaktereve t secilit bllok t mesazhit.
-#     - Per shembull:
-#         - Per celesin "BA", fjala "FIEK" do te kthehet ne "IFKE"
-#         - Visualizimi:
-#             1. FIEK ==> Plaintexti
-#             2. FI EK ==> Plaintexti i ndame ne blloqe
-#             3.  +---+---+
-#                 | B | A | ==> Celesi(Table Header)
-#                 +---+---+
-#                 | F | I |
-#                 +---+---+
-#                 | E | K |
-#                 +---+---+
-#             4.  +---+---+
-#                 | A | B | ==> Celesi i Sortum(Table Header)
-#                 +---+---+
-#                 | I | F |
-#                 +---+---+
-#                 | K | E |
-#                 +---+---+
+## Si funksionon
 
-FIEK 2024
+1. **Çelësi i Permutacionit**: Në këtë algoritëm, një çelës përdoret për të krijuar një permutacion të karaktereve. Ky çelës është një sekuencë që përcakton mënyrën se si karakteret do të riorganizohen.
+
+2. **Enkriptimi**:
+   - Teksti i thjeshtë ndahet në blloqe ose në nivel karakteri.
+   - Për secilin bllok ose karakter, zbatohet permutacioni sipas çelësit për të krijuar tekstin e koduar.
+
+3. **Dekriptimi**:
+   - Për të deshifruar tekstin e koduar, përdoret permutacioni invers i çelësit.
+   - Kjo rikthen blloqet ose karakteret në pozicionet e tyre origjinale për të marrë tekstin e thjeshtë.
+
